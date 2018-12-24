@@ -1,1 +1,7 @@
 /target
+.idea
+.project
+.classpath
+myspring.iml
+.settings
+

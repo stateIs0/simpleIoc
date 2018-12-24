@@ -26,7 +26,7 @@ public class XmlBeanDefinitionReaderTest {
           .registerBeanDefinition(beanDefinitionEntry.getKey(), beanDefinitionEntry.getValue());
     }
     // 获取持有另一个bean对象的bean（也是从容器中取得的）
-    ReferenceBean hello = (ReferenceBean) beanfactory.getBean("ReferenceBean");
+    ReferenceBean hello = (ReferenceBean) beanfactory.getBean("referenceBean");
 
     // 调用对象方法
     hello.say();
